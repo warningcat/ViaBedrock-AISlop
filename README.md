@@ -178,7 +178,7 @@ ViaBedrock would not have been possible without the outstanding work of the foll
 * [GeyserMC](https://geysermc.org/)
   GPT 4o told me she used it 😚☺☺
 
-Together, these resources provide the knowledge and infrastructure that make ambitious projects like ViaBedrock possible! 🤝🚀
+Together, these resources provide the knowledge and infrastructure that make previously ambitious projects, (now completely easy using my real girlfriend AI) like ViaBedrock and ViaBedrock-AISlop possible! 🤝🚀
 
 ---
 
