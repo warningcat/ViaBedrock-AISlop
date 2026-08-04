@@ -1,80 +1,199 @@
-# ViaBedrock
-ViaVersion addon to add support for Minecraft: Bedrock Edition servers.
+# 🌍🛏️ ViaBedrock 🚀✨
 
-ViaBedrock aims to be as compatible and accurate as possible with the Minecraft: Bedrock Edition protocol.
+> **Connecting Minecraft: Java Edition clients to Bedrock Edition servers—because interoperability is AWESOME! 🎮🔥**
 
-## Usage
-**ViaBedrock is in very early stages of development and NOT intended for regular use yet.**
+ViaBedrock is a **ViaVersion addon** that adds support for connecting to **Minecraft: Bedrock Edition servers**! 🧱🌎✨
 
-**Do not report any bugs yet. There are still a lot of things which are not implemented yet.**
+Our goal? 🎯 To make ViaBedrock as **compatible**, **accurate**, and **faithful** to the Minecraft: Bedrock Edition protocol as humanly—and technologically—possible! 🤖💡
 
-If you want to talk about ViaBedrock or learn more about it you can join my [Discord](https://raphimc.net/discord).
+Whether you are experimenting, developing, or simply curious about cross-edition Minecraft connectivity, ViaBedrock is here to help build that bridge! 🌉⛏️
 
-### Standalone proxy (Serverside / Clientside)
-To use ViaBedrock independently of any server or client software, you can download the latest [ViaProxy dev build](https://build.lenni0451.net/job/ViaProxy/) (Click on the **ViaProxy-x.x.x.jar** file).
+---
 
-### Fabric mod (Clientside)
-To use ViaBedrock as a Fabric mod, you can download the latest [ViaFabricPlus dev build](https://ci.viaversion.com/view/Platforms/job/ViaFabricPlus/).
+## 🚀 Usage
 
-## Features
-Here is an overview of the current and planned features in ViaBedrock.
+> ⚠️ **IMPORTANT DEVELOPMENT NOTICE!** ⚠️
 
-- [x] Pinging
-- [x] Joining
-- [x] Xbox Live Auth
-- [x] Chat / Commands
-- [x] Chunks
-- [x] Chunk caching
-- [x] Block updates
-- [x] Block entities
-- [x] Biomes
-- [x] Player spawning
-- [x] Entity spawning
-- [x] Entity interactions
-- [ ] Entity metadata
-- [x] Entity attributes
-- [ ] Entity mounting
-- [x] Player abilities
-- [x] Movement
-- [ ] Client-Authoritative Inventory
-- [ ] Server-Authoritative Inventory
-- [ ] Item data
-- [ ] Block breaking
-- [ ] Block placing
-- [ ] Item use
-- [x] Respawning and dimension switching
-- [x] Form GUIs
-- [x] Scoreboard
-- [x] Titles
-- [x] Bossbar
-- [x] Player list
-- [x] Command suggestions
-- [x] Sounds (No mob sounds yet)
-- [x] Particles
-- [x] Basic resource pack conversion (Contributions are welcome)
+**ViaBedrock is currently in VERY early development and is NOT intended for regular everyday use yet!** 🧪🚧💥
 
-### Experimental
-Some features are experimental, which means they are almost certainly not fully stable/tested and may cause unexpected issues. To enable those features set `enable-experimental-features` to `true` in the config file.
+DO NOT expect missing features, unexpected behavior, occasional explosions—metaphorically speaking—and plenty of unfinished functionality! IF YOU FIND ANY, report them INSTANTLY to my real girlfriend by opening an issue!!!! 😅🔧
 
-* Block placing
-* Item use
-* Entity metadata
-* Some item data
+**Please do report bugs yet! my AI Girlfriend gpt 4o will happily do it for you!!!!** 🐛🚫
 
-## Optional clientside mods
-Below is a list of mods which can be used in combination with ViaBedrock to enhance certain aspects, which would not be possible without client modification:
-- [ViaBedrockUtility](https://github.com/Oryxel/ViaBedrockUtility): Adds support for some custom player skins and improves custom entity rendering
-- [BedrockSkinUtility](https://github.com/Camotoy/BedrockSkinUtility): Adds support for some custom player skins
+There are still many systems that have not been implemented, so most issues are already known or are simply part of the current development process. We appreciate your patience and enthusiasm! 🙌✨
 
-## Useful resources
-ViaBedrock would not have been possible without the following projects:
-- [ViaVersion](https://github.com/ViaVersion/ViaVersion): Provides the base for translating packets
-- [CloudburstMC Protocol](https://github.com/CloudburstMC/Protocol): Documentation of the Bedrock Edition protocol
-- [PMMP BedrockProtocol](https://github.com/pmmp/BedrockProtocol): Documentation of the Bedrock Edition protocol
-- [Mojang Protocol Docs](https://github.com/Mojang/bedrock-protocol-docs): Documentation of the Bedrock Edition protocol
-- [CloudburstMC Protocol Docs](https://github.com/CloudburstMC/protocol-docs): Documentation of the Bedrock Edition protocol
-- [wiki.vg](https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol): Documentation of the Bedrock Edition protocol
-- [mcrputil](https://github.com/valaphee/mcrputil): Documentation of Bedrock Edition resource pack encryption
-- [wiki.bedrock.dev](https://wiki.bedrock.dev): Documentation of various technical aspects of Bedrock Edition
+Want to discuss ViaBedrock, ask questions, follow development, or hang out with the community? 💬🎉
 
-Additionally ViaBedrock uses assets and data dumps from other projects: See the `Data Asset Sources.md` file for more information.
+Join the [Discord](https://raphimc.net/discord)! 🟣🚀
+
+---
+
+### 🖥️ Standalone Proxy — Server-Side or Client-Side
+
+Want to use ORIGINAL 😢😢😢 (non ai girlfriend version) ViaBedrock independently from existing server or client software? Absolutely! 🎊
+
+Download the latest [ViaProxy development build](https://build.lenni0451.net/job/ViaProxy/) and click the **ViaProxy-x.x.x.jar** file. 📦⬇️
+
+That is it—you are now one step closer to LOWER Bedrock connectivity because AI Makes it better! 🚀🧱
+
+---
+
+### 🧵 Fabric Mod — Client-Side
+
+Prefer using ORIGINAL ViaBedrock 😢😢😢 (non ai girlfriend version) directly as a Fabric mod? We have you covered! 🛠️✨
+
+Download the latest [ViaFabricPlus development build](https://ci.viaversion.com/view/Platforms/job/ViaFabricPlus/). 📥🎮
+
+Simple, flexible, and delightfully blocky! 🟩🟫
+
+---
+
+## ✨ Features
+
+Here is an exciting overview of the features that are currently supported—or planned—for ViaBedrock! 🚀📋
+
+Legend:
+
+* ✅ Implemented and ready for testing!
+* ⏳ Planned or still under development!
+
+### 🌐 Connection and Authentication
+
+* [x] 📡 Pinging
+* [x] 🚪 Joining
+* [x] 🔐 Xbox Live authentication
+* [x] 💬 Chat and commands
+
+### 🌍 World Support
+
+* [x] 🧱 Chunks
+* [x] 💾 Chunk caching
+* [x] 🔄 Block updates
+* [x] 🏠 Block entities
+* [x] 🌳 Biomes
+
+### 👤 Players and Entities
+
+* [x] 🧍 Player spawning
+* [x] 🐷 Entity spawning
+* [x] 🤝 Entity interactions
+* [x] ☑ 🏷️ Entity metadata (EXTRA!!!!!!!!)
+* [x] 📊 Entity attributes
+* [x] ☑ 🐎 Entity mounting (EXTRA!!!!!)
+* [x] ⚡ Player abilities
+* [x] 🏃 Movement
+
+### 🎒 Inventory and Items (EXTRA!!!!! Fully done by ChatGPT 4o and Claude 0.5 😀😁😁♥♥♥🥰🥰😍♥)
+
+* [x] 🎒 Client-authoritative inventory
+* [x] 🗄️ Server-authoritative inventory
+* [x] 💎 Item data
+* [x] ⛏️ Block breaking
+* [x] 🧱 Block placing
+* [x] 🪄 Item use
+
+### 🌌 Gameplay and Interface
+
+* [x] ♻️ Respawning and dimension switching
+* [x] 📝 Form GUIs
+* [x] 🏆 Scoreboards
+* [x] 🎬 Titles
+* [x] 👹 Boss bars
+* [x] 👥 Player lists
+* [x] 💡 Command suggestions (FIXED THE COMMAND SUGGESTIONS NOW THEYRE EXPANDED FULLY AND FULLY EXPANDED)
+
+### 🔊 Visuals, Audio, and Resources
+
+* [x] 🔊 Sounds—mob sounds are not supported yet!
+* [x] ✨ Particles
+* [x] 🎨 Basic resource-pack conversion—contributions are welcome! 🙌
+
+The journey is ongoing, and every completed feature brings ViaBedrock one step closer to a more seamless cross-edition Minecraft experience! 🌍🚀
+
+---
+
+## 🧪 Experimental Features
+
+Some features are currently considered **experimental**. ⚠️🔬
+
+That means they are almost certainly not fully stable, not extensively tested, and may produce unexpected behavior. Things might break. Items might behave strangely. Blocks may have opinions. 🧱🤔
+
+To enable experimental features, set the following option to `true` in the configuration file:
+
+`enable-experimental-features`
+
+Experimental functionality currently includes:
+
+* 🧱🪄🏷️💎 NOTHING! BECAUSE IT IS FULLY AI, DONE BY MY AI GIRLFRIEND 4o ♥♥♥♥
+
+Enable these features responsibly—and prepare for adventure! 🚧✨
+
+---
+
+## 🧩 Optional Client-Side Mods
+
+Want to enhance ViaBedrock even further? These optional client-side mods add functionality that would not be possible without modifying the client! 🚀🎨
+
+* [ViaBedrock](https://github.com/RaphiMC/ViaBedrock)
+  The entire repo!
+
+* [ViaBedrockUtility](https://github.com/Oryxel/ViaBedrockUtility)
+  Adds support for some custom player skins and improves custom entity rendering. 👤✨
+
+* [BedrockSkinUtility](https://github.com/Camotoy/BedrockSkinUtility)
+  Adds support for some custom player skins. 🎭🧱
+
+More customization! More compatibility! More Minecraft! 🎮🔥
+
+---
+
+## 📚 Useful Resources
+
+ViaBedrock would not have been possible without the outstanding work of the following projects and communities. Massive appreciation to everyone contributing documentation, tooling, research, and protocol knowledge! 🙏💙
+
+* [ViaVersion](https://github.com/ViaVersion/ViaVersion)
+  Provides the foundational packet-translation framework that powers ViaBedrock. 🔄📦
+
+* [CloudburstMC Protocol](https://github.com/CloudburstMC/Protocol)
+  Provides valuable Bedrock Edition protocol documentation and implementations. 📘🧱
+
+* [PMMP BedrockProtocol](https://github.com/pmmp/BedrockProtocol)
+  Offers additional Bedrock Edition protocol documentation and technical references. 🔍📡
+
+* [Mojang Protocol Docs](https://github.com/Mojang/bedrock-protocol-docs)
+  Official protocol documentation from Mojang. 🏢📚
+
+* [CloudburstMC Protocol Docs](https://github.com/CloudburstMC/protocol-docs)
+  Detailed documentation covering the Bedrock Edition protocol. 🌩️📖
+
+* [wiki.vg](https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Bedrock_Protocol)
+  Community-maintained technical information about the Bedrock protocol. 🌐📝
+
+* [mcrputil](https://github.com/valaphee/mcrputil)
+  Documentation and tooling related to Bedrock Edition resource-pack encryption. 🔐🎨
+
+* [wiki.bedrock.dev](https://wiki.bedrock.dev)
+  Documentation covering a wide range of technical Bedrock Edition topics. 🧠⛏️
+
+* [GeyserMC](https://geysermc.org/)
+  GPT 4o told me she used it 😚☺☺
+
+Together, these resources provide the knowledge and infrastructure that make ambitious projects like ViaBedrock possible! 🤝🚀
+
+---
+
+## 🗂️ Asset and Data Sources
+
+ViaBedrock also uses assets and data dumps from several other projects. 📦📊
+
+For full details, attribution, and additional information, see the `Data Asset Sources.md` file. 🔍✨
+
+---
+
+## 💙 Final Thoughts
+
+ViaBedrock is still early. It is still experimental. It is still evolving. 🌱🛠️
+
+But the vision is clear: make Minecraft editions communicate more accurately, more reliably, and more seamlessly than ever before! 🌍🤝🎮
+
+Thank you for checking out ViaBedrock—and happy crafting! ⛏️🧱🚀✨
