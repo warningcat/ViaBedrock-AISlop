@@ -24,7 +24,7 @@ There are still many systems that have not been implemented, so most issues are 
 
 Want to discuss ViaBedrock, ask questions, follow development, or hang out with the community? 💬🎉
 
-Join the [Discord](https://raphimc.net/discord)! 🟣🚀
+Join the ORIGINAL PROJECT's 😑😑😑 [Discord](https://raphimc.net/discord)! 🟣🚀
 
 ---
 
