@@ -63,6 +63,7 @@ Legend:
 * [x] 🚪 Joining
 * [x] 🔐 Xbox Live authentication
 * [x] 💬 Chat and commands
+* [X] 🚪 Joining Friends & Lan
 
 ### 🌍 World Support
 
